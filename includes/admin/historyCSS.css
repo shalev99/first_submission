@@ -1,0 +1,29 @@
+
+#logoalc{
+    display:block;
+    background: url("../../images/milknhoney.png")center no-repeat;
+    background-size: contain;
+    position:relative;
+    
+    height:150px;
+    width:150px;
+   margin: 0%auto;
+}
+
+
+
+
+
+h3,h1,p{
+
+width: 500px;
+margin: 0%auto;
+padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+   
+
+
+    
+}

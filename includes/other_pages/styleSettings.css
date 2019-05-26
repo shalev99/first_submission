@@ -1,0 +1,113 @@
+*{margin:0px;padding:0px;
+  font-family: 'Mandali', sans-serif;
+}
+
+
+header,aside,section,main,nav,footer,div{
+    display:block;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ #logo{
+    display:block;
+    background: url("../../images/Alcolock.png")center no-repeat;
+    background-size: contain;
+    height:150px;
+    width:150px;
+    margin: 0px auto;
+}
+
+ main{
+    width:100%;
+    height:1000px;
+    background-color: rgb(231, 236, 236);
+}
+
+ form{
+    position:relative;
+    top:50px;
+    
+    width:450px;
+    margin: 0px auto;
+}
+
+ form label{
+    margin-left: 50px;
+}
+
+form h2{
+    
+    padding-left:15px;
+    width:450px;
+    margin: 0px auto;
+     
+}
+
+
+
+.multiselect {
+    width: 200px;
+    margin: 0px auto;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+
+  #password_input{
+      margin-left:70px;
+  }
+
+  h4{
+    margin-left:123px;
+  }
+
+  #submit_button{
+      width:50px;
+      margin: 0px auto;
+  }
+
+
+h2{
+  
+
+text-align: center;
+
+}
+
+.checkboxdiv{
+
+  width: 80px;
+  margin: 0px auto;
+}

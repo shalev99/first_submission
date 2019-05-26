@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Or Kilim and Tal Shalev</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Mandali&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styleSettings.css">
+</head>
+
+<body id="appBlockingPage">
+    <main>
+        <div id=wrapper>
+            <a href="../../index.html" id="logo"></a>
+            <form action="database.php" method="get">
+                <h2> Choose Apps to Block</h2>
+
+<br>
+                <div class="checkboxdiv">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" name="blocked[]" value="instagram" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">instagram</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" name="blocked[]" value="facebook" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">facebook</label>
+                </div>
+                 <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" name="blocked[]" value="twitter" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck3">twitter</label>
+                 </div>
+                 <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" name="blocked[]" value="whatsapp" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">whatsapp</label>
+                     </div>
+
+                     <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" name="blocked[]" value="snapchat" class="custom-control-input" id="customCheck5">
+                        <label class="custom-control-label" for="customCheck5">snapchat</label>
+                         </div>    
+                         <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" name="blocked[]" value="SMS" class="custom-control-input" id="customCheck6">
+                            <label class="custom-control-label" for="customCheck6">SMS</label>
+                             </div>  
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" name="blocked[]" value="facebook messanger" class="custom-control-input" id="customCheck7">
+                     <label class="custom-control-label" for="customCheck7">messanger</label>
+                    </div>
+
+
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" name="blocked[]" value="reddit" class="custom-control-input" id="customCheck8">
+                           <label class="custom-control-label" for="customCheck8">reddit</label>
+                          </div>
+
+
+                </div>
+                
+                <br>
+
+
+                <h2> Choose Contacts to Block</h2>
+                <br>
+                <div class="multiselect">
+                    <div class="selectBox" onclick="showCheckboxes()">
+                        <select>
+                            <option>Choose</option>
+                        </select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div id="checkboxes">
+                        <label for="one">
+                            <input type="checkbox" id="one" />Donald Trump</label>
+                        <label for="two">
+                            <input type="checkbox" id="two" />Ryan Reynolds</label>
+                        <label for="three">
+                            <input type="checkbox" id="three" />Mick Jagger</label>
+                    </div>
+                </div>
+                <br>
+                <h2> Choose Emergancy Contacts</h2>
+                <br>
+                <div>
+
+                        <select  name="gender"  id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Barney Stinson</option>
+                                <option>Morgan Freeman</option>
+                                <option>Popeye</option>
+                              </select>
+                              <br>
+                              <select  name="gender"  id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>Barney Stinson</option>
+                                    <option>Morgan Freeman</option>
+                                    <option>Popeye</option>
+                                  </select>
+                                    <br>
+                                  <select  name="gender"  id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>Barney Stinson</option>
+                                        <option>Morgan Freeman</option>
+                                        <option>Popeye</option>
+                                      </select>
+                    
+                </div>
+                <br>
+                <h4>Choose Password</h4>
+                <br>
+                <div  id="password_input">
+                <label><input type="password" class="form-control" name="pass" minlength="4" maxlength="8" value=""></label>
+            </div>
+                <div id="submit_button">
+                <button type="submit" class="btn btn-primary">save</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+        <script src="jquery-3.3.1.min.js"></script>
+    <script src="mainSettings.js"></script>
+</body>
+
+</html>

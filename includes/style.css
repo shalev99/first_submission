@@ -1,0 +1,89 @@
+*{margin:0px;padding:0px;
+    font-family: 'Mandali', sans-serif;
+}
+
+
+header,aside,section,main,nav,footer,div{
+    display:block;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration:none;
+    color:black;
+}
+
+#logo{
+    display:block;
+    background: url("../images/Alcolock.png")center no-repeat;
+    background-size: contain;
+    position:relative;
+    left:18%;
+    height:150px;
+    width:150px;
+   
+}
+
+
+/*header{
+    width:1000px;
+    margin: 0px auto;
+    background-color: green;
+}*/
+
+/*#headerWrapper{
+    width:100px;
+    margin:0px auto;
+    background-color: pink;
+}*/
+
+body{
+    height:200px;
+    width:250px;
+    margin: 0px auto;
+}
+
+
+main{
+    /*background-color: red; */
+    width:200px;
+    height:250px;   
+    
+    margin:0px auto;
+}
+
+#lockComs{
+    position:relative;
+    left:20%;
+    top:50px;
+    width:128px;
+    height:75px;
+    text-align: center;
+    background-color: #1565c0;
+    
+}
+
+
+#settingsButton{
+    position:relative;
+    left:20%;
+    top:75px;
+    width:128px;
+    height:40px;
+    text-align: center;
+    background-color: gray;  
+}
+
+#adminView{
+    background-color:gray;
+    position: relative;
+    left:20%;
+    top:90px;
+    width:128px;
+    height:40px;
+    text-align:center;
+}
